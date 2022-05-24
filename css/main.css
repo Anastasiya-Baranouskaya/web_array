@@ -95,7 +95,7 @@ html {
   h3 {
     font-size: 48px;
     font-weight: 600;
-    color: var(--second-text-color);
+    color: var(--main-text-color);
   }
   h4 {
     font-size: 32px;
@@ -238,5 +238,22 @@ footer {
 
 .rated-button:focus {
   background-color: var(--button-section-background-color);
+}
+
+.col__margin {
+  margin-bottom: 60px;
+}
+
+.rated-heading {
+  padding-top: 45px;
+  padding-bottom: 40px;
+}
+
+.rated-svg {
+  fill: var(--svg-color);
+}
+
+.rated-svg__fill {
+  fill: var(--second-text-color);
 }
 /*# sourceMappingURL=main.css.map */

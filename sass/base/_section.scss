@@ -15,3 +15,16 @@
     background-color: var(--button-section-background-color);
   }
 }
+.col__margin {
+  margin-bottom: 60px;
+}
+.rated-heading {
+  padding-top: 45px;
+  padding-bottom: 40px;
+}
+.rated-svg {
+  fill: var(--svg-color);
+}
+.rated-svg__fill {
+  fill: var(--second-text-color);
+}
