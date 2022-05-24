@@ -7,54 +7,95 @@ html {
 *::after {
   box-sizing: inherit;
 }
-
-body {
-  width: 576px;
+@media screen and (min-width: 1400px) {
+  h1 {
+    font-size: 80px;
+    font-weight: 800;
+    color: var(--primary-text-color);
+  }
+  h2 {
+    font-size: 64px;
+    font-weight: 650;
+    color: var(--main-text-color);
+  }
+  h3 {
+    font-size: 48px;
+    font-weight: 600;
+    color: var(--second-text-color);
+  }
+  h4 {
+    font-size: 32px;
+    font-weight: 400;
+    color: var(--main-text-color);
+  }
+  p {
+    font-family: Motiva Sans;
+    font-weight: 300;
+    font-size: 24px;
+    color: var(--main-text-color);
+    margin: 0;
+  }
+  .small-p {
+    font-size: 18px;
+  }
+  img {
+    display: block;
+  }
 }
-// @media screen and (min-width: 769px) {
-//   body {
-//     width: 1366px;
-//     margin: auto;
-//   }
-// }
-h1 {
-  size: 40px;
-  color: var(--primary-text-color);
-}
-h2 {
-  size: 32px;
-  color: var(--main-text-color);
-}
-h3 {
-  size: 28px;
-  color: var(--second-text-color);
-}
-h4 {
-  size: 18px;
-  color: var(--main-text-color);
-}
-p {
-  font-family: Motiva Sans;
-  font-weight: 300;
-  size: 20px;
-  color: var(--main-text-color);
-}
-img {
-  display: block;
-}
-button {
-  font-family: Motiva Sans;
-  font-weight: 500;
-  font-size: 18px;
-  color: var(--button-text-color-hover-focus);
-  cursor: pointer;
-  align-items: center;
-  text-align: center;
-  padding: 10px 32px;
-  border-radius: 4px;
-  background: var(--background-color-blue);
-  border: none;
+@media screen and (max-width: 768px) {
+  h1 {
+    size: 40px;
+    color: var(--primary-text-color);
+  }
+  h2 {
+    size: 32px;
+    color: var(--main-text-color);
+  }
+  h3 {
+    size: 28px;
+    color: var(--second-text-color);
+  }
+  h4 {
+    size: 18px;
+    color: var(--main-text-color);
+  }
+  p {
+    font-family: Motiva Sans;
+    font-weight: 300;
+    size: 24px;
+    color: var(--main-text-color);
+    margin: 0;
+  }
+  img {
+    display: block;
+  }
+  button {
+    font-family: Motiva Sans;
+    font-weight: 500;
+    font-size: 28px;
+    color: var(--button-text-color-hover-focus);
+    cursor: pointer;
+    align-items: center;
+    text-align: center;
+    padding: 10px 32px;
+    border-radius: 4px;
+    background: var(--background-color-blue);
+    border: none;
+  }
 }
 footer {
   background-color: var(--background-color-footer);
+}
+.button {
+  font-family: Motiva Sans;
+  font-weight: 500;
+  font-size: 28px;
+  cursor: pointer;
+  align-items: center;
+  text-align: center;
+  border-radius: 8px;
+  border: none;
+}
+.bigger-button {
+  font-size: 36px;
 }

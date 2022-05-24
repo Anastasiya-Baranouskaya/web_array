@@ -26,7 +26,7 @@
 <path d="M4 9.333h24c0.736 0 1.333-0.597 1.333-1.333s-0.597-1.333-1.333-1.333v0h-24c-0.736 0-1.333 0.597-1.333 1.333s0.597 1.333 1.333 1.333v0zM28 14.667h-24c-0.736 0-1.333 0.597-1.333 1.333s0.597 1.333 1.333 1.333v0h24c0.736 0 1.333-0.597 1.333-1.333s-0.597-1.333-1.333-1.333v0zM28 22.667h-24c-0.736 0-1.333 0.597-1.333 1.333s0.597 1.333 1.333 1.333v0h24c0.736 0 1.333-0.597 1.333-1.333s-0.597-1.333-1.333-1.333v0z"></path>
 </symbol>
 <symbol id="icon-globe" viewBox="0 0 32 32">
-<path fill="none" stroke="#6b6c6e" style="stroke: var(--color5, #6b6c6e)" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="1" d="M31.5 16c0 8.56-6.94 15.5-15.5 15.5s-15.5-6.94-15.5-15.5c0-8.56 6.94-15.5 15.5-15.5s15.5 6.94 15.5 15.5z"></path>
+<path fill="none" stroke="#007ad8" style="stroke: var(--color5, #6b6c6e)" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="1" d="M31.5 16c0 8.56-6.94 15.5-15.5 15.5s-15.5-6.94-15.5-15.5c0-8.56 6.94-15.5 15.5-15.5s15.5 6.94 15.5 15.5z"></path>
 </symbol>
 </defs>
 </svg>

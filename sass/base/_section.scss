@@ -1,0 +1,17 @@
+.rated-section {
+  padding-top: 225px;
+  margin-bottom: 110px;
+}
+.rated-section__text {
+  margin-top: 55px;
+  margin-bottom: 40px;
+}
+.rated-button {
+  color: var(--second-text-color);
+  &:hover {
+    background-color: var(--button-section-background-color);
+  }
+  &:focus {
+    background-color: var(--button-section-background-color);
+  }
+}

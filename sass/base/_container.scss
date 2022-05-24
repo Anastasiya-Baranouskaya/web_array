@@ -1,12 +1,11 @@
 // margin container
 .container_page {
-  width: 100%;
   margin-left: auto;
   margin-right: auto;
-  //   @media screen and (min-width: 768px) {
-  //     width: 516px;
-  //   }
-  //   @media screen and (min-width: 1200px) {
-  //     // width: 1200px;
-  //   }
+  @media screen and (max-width: 768px) {
+    min-width: 576px;
+  }
+  @media screen and (max-width: 768px), (min-width: 1400px) {
+    min-width: 1366px;
+  }
 }

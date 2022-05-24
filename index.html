@@ -15,107 +15,172 @@
     <title>WEB ARRAY</title>
   </head>
   <body>
-    <header class="container header">
-      <nav class="navbar navbar-default">
-        <div class="row">
-          <div class="col-sm-4 col-md-4">
-            <a href="" class="navbar-brand">
-              <svg class="" width="24px" height="24px">
-                <use href="./image/svg/symbol-defs.svg#icon-phone"></use>
-              </svg>
+    <header class="header">
+      <div class="container-xl container-sm container_page">
+        <nav class="navbar navbar-expand-lg">
+          <div class="container-fluid">
+            <a class="navbar-brand col-xl-3" href="#">
+              <img src="./image/Logo.png" alt="Logo" />
             </a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav col-xl-6 me-auto mb-2 mb-lg-0 justify-content-between">
+                <li class="nav-item">
+                  <a class="nav-link text-uppercase fw-semibold" aria-current="page" href="#">
+                    <p style="font-weight: 500">Features</p>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-uppercase fw-semibold" href="#"> <p style="font-weight: 500">Devices</p></a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link text-uppercase fw-semibold"> <p style="font-weight: 500">PRICING</p></a>
+                </li>
+              </ul>
+              <button
+                class="btn btn-dark btn-lg col-xl-3 button"
+                style="background-color: var(--button-section-background-color)"
+                type="button"
+              >
+                Get A Quote
+              </button>
+            </div>
           </div>
-          <div class="col-sm-4">
-            <a href="./index.html" class="col-sm-4">
-              <img src="./image/Logo.png" alt="Logo" height="35px" />
-            </a>
-          </div>
-          <div class="col-sm-4">
-            <a href="" class="col-sm-4">
-              <svg class="" width="31px" height="24px">
-                <use href="./image/svg/symbol-defs.svg#icon-menu"></use>
-              </svg>
-            </a>
-          </div>
-        </div>
-      </nav>
+        </nav>
+      </div>
+
+      <!-- <svg class="" width="24px" height="24px">
+        <use href="./image/svg/symbol-defs.svg#icon-phone"></use>
+      </svg> -->
     </header>
+    <section class="section-sale">
+      <div class="container-xl text-end container_page">
+        <p class="text-uppercase" style="padding-right: 60px">sale:000 000</p>
+      </div>
+    </section>
     <main>
-      <section class="hero-section">
-        <div class="container container_page">
-          <h1 class="">Build better <span> connections</span> and deliver <span>amazing</span> customer experiences</h1>
-          <div class="d-grid gap-2 col-6 mx-auto">
-            <button class="btn btn-dark btn-lg" type="button">Start now</button>
-            <button class="btn btn-outline-dark btn-lg" type="button">Start now</button>
+      <section class="hero-section" style="position: relative">
+        <div class="container-xl container_page">
+          <div class="row align-items-center">
+            <div class="col-xl-9">
+              <div class="row">
+                <div class="col-xl-12">
+                  <h1 class="hero-title">Build better connections and deliver amazing customer experiences</h1>
+                </div>
+                <div class="gap-2">
+                  <button class="btn btn-dark btn-lg col-xl-3 button" style="margin-right: 30px" type="button">
+                    Start now
+                  </button>
+                  <button class="btn btn-outline-dark btn-lg col-xl-3 button" type="button">Start now</button>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-4" style="position: absolute; right: 0; bottom: 0">
+              <img class="w-100" src="./image/Header Image Woman.png" alt="" />
+            </div>
           </div>
         </div>
       </section>
       <section class="rated-section">
         <div class="container container_page">
-          <h2>Top Rated <span>Cloud Phone System</span></h2>
-          <p>Made for business owners, not IT wizards.</p>
-          <img src="./image/Laptop + Phone.png" alt="Laptop + Phone" />
-          <div class="d-grid gap-2 col-6 mx-auto">
-            <button type="button" class="btn btn-secondary btn-lg">Start now</button>
-            <button type="button" class="btn btn-outline-warning btn-lg">Start now</button>
+          <!-- <span class="container-fluid">
+            <svg width="48px">
+              <use href="./image/svg/symbol-defs.svg#icon-globe"></use>
+            </svg>
+          </span> -->
+          <div class="row align-items-start" style="position: relative">
+            <div class="col-xl-7">
+              <h2>
+                Top Rated <br />
+                <span style="color: var(--second-text-color)">Cloud Phone System</span>
+              </h2>
+              <p class="rated-section__text">Made for business owners, not IT wizards.</p>
+              <div class="gap-2" style="margin-bottom: 105px">
+                <button
+                  class="btn btn-dark btn-lg col-xl-4 button"
+                  style="background-color: var(--button-section-background-color); margin-right: 30px"
+                  type="button"
+                >
+                  Let's get started
+                </button>
+                <button class="btn btn-outline-dark btn-lg col-xl-4 button rated-button" type="button">
+                  Get More Info
+                </button>
+              </div>
+            </div>
+            <div class="col-xl-5" style="position: absolute; right: 30px; bottom: 105px">
+              <img class="" src="./image/Laptop + Phone.png" alt="Laptop + Phone" />
+            </div>
           </div>
-
-          <ul>
-            <li>
-              <svg width="45px" height="40px"><use href="./image/svg/symbol-defs.svg#icon-call"></use></svg>
-              <h3>Never Miss a Call</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur sequi distinctio quam cum,
-                pariatur alias quas corporis eum. Commodi rem minima perspiciatis accusamus laborum, natus adipisci
-                reprehenderit qui, vel perferendis similique, dolore delectus.
-              </p>
-            </li>
-            <li>
-              <svg width="45px" height="40px"><use href="./image/svg/symbol-defs.svg#icon-call"></use></svg>
-              <h3>Never miss a Call</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, suscipit aut? Perspiciatis aliquid est
-                animi repellendus natus vitae. Totam, obcaecati! Sint provident tenetur voluptatum, expedita illo magni,
-                porro magnam, est temporibus et cum.
-              </p>
-            </li>
-            <li>
-              <svg width="45px" height="40px"><use href="./image/svg/symbol-defs.svg#icon-call"></use></svg>
-              <h3>Never miss a Call</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, suscipit aut? Perspiciatis aliquid est
-                animi repellendus natus vitae. Totam, obcaecati! Sint provident tenetur voluptatum, expedita illo magni,
-                porro magnam, est temporibus et cum.
-              </p>
-            </li>
-            <li>
-              <svg width="45px" height="40px"><use href="./image/svg/symbol-defs.svg#icon-call"></use></svg>
-              <h3>Never miss a Call</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, suscipit aut? Perspiciatis aliquid est
-                animi repellendus natus vitae. Totam, obcaecati! Sint provident tenetur voluptatum, expedita illo magni,
-                porro magnam, est temporibus et cum.
-              </p>
-            </li>
-            <li>
-              <svg width="45px" height="40px"><use href="./image/svg/symbol-defs.svg#icon-call"></use></svg>
-              <h3>Never miss a Call</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, suscipit aut? Perspiciatis aliquid est
-                animi repellendus natus vitae. Totam, obcaecati! Sint provident tenetur voluptatum, expedita illo magni,
-                porro magnam, est temporibus et cum.
-              </p>
-            </li>
-            <li>
-              <svg width="45px" height="40px"><use href="./image/svg/symbol-defs.svg#icon-call"></use></svg>
-              <h3>Never miss a Call</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, suscipit aut? Perspiciatis aliquid est
-                animi repellendus natus vitae. Totam, obcaecati! Sint provident tenetur voluptatum, expedita illo magni,
-                porro magnam, est temporibus et cum.
-              </p>
-            </li>
-          </ul>
+          <div class="container">
+            <div class="row row-cols-3">
+              <div class="col">
+                <svg width="45px" height="45px"><use href="./image/svg/symbol-defs.svg#icon-call"></use></svg>
+                <h3>Never Miss a Call</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur sequi distinctio quam cum,
+                  pariatur alias quas corporis eum. Commodi rem minima perspiciatis accusamus laborum, natus adipisci
+                  reprehenderit qui, vel perferendis similique, dolore delectus.
+                </p>
+              </div>
+              <div class="col">
+                <svg width="45px" height="45px"><use href="./image/svg/symbol-defs.svg#icon-call"></use></svg>
+                <h3>Never Miss a Call</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur sequi distinctio quam cum,
+                  pariatur alias quas corporis eum. Commodi rem minima perspiciatis accusamus laborum, natus adipisci
+                  reprehenderit qui, vel perferendis similique, dolore delectus.
+                </p>
+              </div>
+              <div class="col">
+                <svg width="45px" height="45px"><use href="./image/svg/symbol-defs.svg#icon-call"></use></svg>
+                <h3>Never Miss a Call</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur sequi distinctio quam cum,
+                  pariatur alias quas corporis eum. Commodi rem minima perspiciatis accusamus laborum, natus adipisci
+                  reprehenderit qui, vel perferendis similique, dolore delectus.
+                </p>
+              </div>
+              <div class="col">
+                <svg width="45px" height="45px"><use href="./image/svg/symbol-defs.svg#icon-call"></use></svg>
+                <h3>Never Miss a Call</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur sequi distinctio quam cum,
+                  pariatur alias quas corporis eum. Commodi rem minima perspiciatis accusamus laborum, natus adipisci
+                  reprehenderit qui, vel perferendis similique, dolore delectus.
+                </p>
+              </div>
+              <div class="col">
+                <svg width="45px" height="45px"><use href="./image/svg/symbol-defs.svg#icon-call"></use></svg>
+                <h3>Never Miss a Call</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur sequi distinctio quam cum,
+                  pariatur alias quas corporis eum. Commodi rem minima perspiciatis accusamus laborum, natus adipisci
+                  reprehenderit qui, vel perferendis similique, dolore delectus.
+                </p>
+              </div>
+              <div class="col">
+                <svg width="45px" height="45x"><use href="./image/svg/symbol-defs.svg#icon-call"></use></svg>
+                <h3>Never Miss a Call</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur sequi distinctio quam cum,
+                  pariatur alias quas corporis eum. Commodi rem minima perspiciatis accusamus laborum, natus adipisci
+                  reprehenderit qui, vel perferendis similique, dolore delectus.
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
       <section class="switch-section">
