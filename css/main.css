@@ -256,4 +256,22 @@ footer {
 .rated-svg__fill {
   fill: var(--second-text-color);
 }
+
+.switch-section {
+  position: relative;
+  background-color: var(--background-color-blue);
+  margin-right: 67px;
+  margin-left: 67px;
+}
+
+.switch-img {
+  position: absolute;
+  left: -12px;
+  top: -15px;
+}
+
+.row-content {
+  display: flex;
+  justify-content: end;
+}
 /*# sourceMappingURL=main.css.map */
